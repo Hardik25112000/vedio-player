@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+    height: 10vh;
+}
+.video{
+    height: 70vh;
+    margin: 0px auto;
+    background: rgba(0, 0, 0, 0.603);
+}
+.voperations{
+    text-transform: capitalize;
+    padding: 8px 50px;
+    background: rgba(0, 0, 0, 0.644);
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    transition: all 300ms;
+}
+.voperations:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
